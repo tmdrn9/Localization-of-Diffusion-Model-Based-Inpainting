@@ -199,10 +199,10 @@ def run():
         A.Resize(args.image_size, args.image_size)
     ])
 
-    train_dataset = CasiaDataset(df_train, aug)
+    train_dataset = CustomDataset(df_train, aug)
     train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True)
 
-    valid_dataset = CasiaDataset(df_val, aug)
+    valid_dataset = CustomDataset(df_val, aug)
     valid_loader = DataLoader(valid_dataset, batch_size=args.batch_size, shuffle=True)
 
     model = GfDecoder()
