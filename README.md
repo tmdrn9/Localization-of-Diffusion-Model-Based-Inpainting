@@ -17,3 +17,14 @@ This work was supported in part by the National Research Foundation (NRF) of Kor
 
 ## Citation
 If you want to cite our paper and code, you can use a BibTeX code here:
+
+```
+@article{lee2024localization,
+  title={Localization of diffusion model-based inpainting through the inter-intra similarity of frequency features},
+  author={Lee, Seung-Lee and Kang, Minjae and Hou, Jong-Uk},
+  journal={Image and Vision Computing},
+  pages={105138},
+  year={2024},
+  publisher={Elsevier}
+}
+```
